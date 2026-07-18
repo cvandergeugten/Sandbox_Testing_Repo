@@ -330,8 +330,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CookingStation
   stationName: Station1
-  interactionRange: 2
+  interactionRange: 5
   highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  interactionColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
