@@ -58,7 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets\My_Junk\Scripts\StationInteractionManager.cs" />
     <Compile Include="Assets\My_Junk\Scripts\CookingStation.cs" />
+    <Compile Include="Assets\My_Junk\Scripts\CookingRangeStation.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\My_Junk\Scripts\PCStation.cs" />
     <Compile Include="Assets\My_Junk\Scripts\SelectionManager.cs" />
     <Compile Include="Assets\My_Junk\Scripts\CollisionColorChanger.cs" />
     <Compile Include="Assets\My_Junk\Scripts\InteractableStation.cs" />

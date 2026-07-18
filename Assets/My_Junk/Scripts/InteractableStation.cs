@@ -8,6 +8,7 @@ public abstract class InteractableStation : MonoBehaviour
     public float interactionRange = 3f;
     [Range(0.1f, 10f)]
     public float interactionResetDelay = 2f;
+    public bool useInteractionColorChange = true;
     public Color highlightColor = Color.yellow;
     public Color interactionColor = Color.green;
 
@@ -109,7 +110,7 @@ public abstract class InteractableStation : MonoBehaviour
     {
         Debug.Log(actor.name + " interacted with " + stationName);
 
-        if (actor != null && actor.CompareTag("Test_Dummy"))
+        if (actor != null && actor.CompareTag("Test_Dummy") && useInteractionColorChange)
         {
             ApplyInteractionColor(actor, interactionColor);
             Invoke(nameof(ResetActorColor), interactionResetDelay);
